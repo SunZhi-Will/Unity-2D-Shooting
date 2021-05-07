@@ -9,6 +9,9 @@ public class PlayerGun : MonoBehaviour
     public Transform shootPoint;
     public AudioSource audioSource;
     private bool attackTime = false;
+
+    
+
 	// Start is called before the first frame update
 	void Start () {
 		audioSource = gameObject.GetComponent<AudioSource>();
